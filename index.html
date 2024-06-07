@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,38 +14,45 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="title">Postech - Fullstack</h1>
-      <p class="">Desafio aula inaugural</p>
+      <div class="container">
+        <h1 class="title">Postech - Fullstack</h1>
+        <p class="subtitle">Desafio aula inaugural</p>
+      </div>
     </header>
-    <section class="body">
-      <h2 class="subtitle">Informações do grupo</h2>
-      <form class="form">
+    <section class="content container">
+      <form class="form" data-form>
+        <label class="info">Informações do grupo</label>
         <div>
-          <label>Nome</label>
-          <input name="name" />
+          <label for="name1">Nome</label>
+          <input type="text" id="name1" name="name1" />
         </div>
         <div>
-          <label>Nome</label>
-          <input name="name1" />
+          <label for="name2">Nome</label>
+          <input type="text" id="name2" name="name2" />
         </div>
         <div>
-          <label>Nome</label>
-          <input name="name2" />
+          <label for="name3">Nome</label>
+          <input type="text" id="name3" name="name3" />
         </div>
         <div>
-          <label>Nome</label>
-          <input name="name3" />
+          <label for="name4">Nome</label>
+          <input type="text" id="name4" name="name4" />
         </div>
         <div>
-          <label>Nome</label>
-          <input name="name4" />
+          <label for="name5">Nome</label>
+          <input type="text" id="name5" name="name5" />
         </div>
         <div>
-          <label>História do grupo</label>
-          <textarea />
+          <label for="history">História do grupo</label>
+          <textarea id="history" name="history" rows="8" required></textarea>
         </div>
-        <button class="" submit="">Enviar</button>
       </form>
+      <div class="form__footer">
+        <button type="button" class="form__button" data-form="submit">
+          Enviar
+        </button>
+      </div>
     </section>
+    <script src="js/script.js"></script>
   </body>
 </html>
