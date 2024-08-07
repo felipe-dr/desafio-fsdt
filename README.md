@@ -1,8 +1,13 @@
 ## Sobre
 
-Projeto desenvolvido durante o desafio da Postech Fullstack
+Projeto desenvolvido durante o desafio da aula inaugural da PosTech do curso Full Stack Development.
 
-## Membros
+## Requisitos
+
+- [Notion](https://zealous-handball-b23.notion.site/Desafio-FSDT-f46120863d154c32b92b95fc708bd79e)
+- [Figma](https://www.figma.com/design/scLVh5Mov1SJlwMv0wQ2bW/POSTECH---FULLSTACK?node-id=0-1)
+
+## Integrantes
 
 - Eduardo Souza - RM357390
 - Felipe D. Rezende - RM357391
